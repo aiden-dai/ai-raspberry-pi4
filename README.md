@@ -15,3 +15,10 @@ I have just bought a Raspberry 4 (4G Ram).
 - [Useful Tools](docs/TOOLS.md)
 
 - [Use Camera](docs/CAMERA.md)
+
+- [Install Tensorflow Lite](docs/TFLITE.md)
+
+- [Object Detection](docs/DETECT.md)
+
+- [Image Classification](docs/CLASSIFY.md)
+
