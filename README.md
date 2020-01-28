@@ -12,4 +12,6 @@ I have just bought a Raspberry 4 (4G Ram).
 
 - [Basic Configuration](docs/CONFIG.md)
 
-- [Use Camera](docs/Camera.md)
+- [Useful Tools](docs/TOOLS.md)
+
+- [Use Camera](docs/CAMERA.md)
