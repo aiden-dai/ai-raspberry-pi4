@@ -13,8 +13,8 @@ https://tensorflow.google.cn/lite/guide/python
 Install Tensorflow Lite interpreter on Python 3.7
 
 ```bash
-wget https://dl.google.com/coral/python/tflite_runtime-1.14.0-cp37-cp37m-linux_armv7l.whl
-pip3 install tflite_runtime-1.14.0-cp37-cp37m-linux_armv7l.whl
+wget https://dl.google.com/coral/python/tflite_runtime-2.1.0-cp37-cp37m-linux_armv7l.whl
+pip3 install tflite_runtime-2.1.0-cp37-cp37m-linux_armv7l.whl
 ```
 
 
