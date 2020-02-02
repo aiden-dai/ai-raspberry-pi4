@@ -17,3 +17,10 @@ cd python
 python3 image_classification.py
 ```
 
+Example
+
+<img src="../images/cat.png" width='50%'>
+
+You need to connect to a monitor via HMDI in order to see the camera preview screen, if you are using VNC, you can go to 'VNC Server - Options' > Troubleshooting,  check the 'Enable direct capture model'
+
+<img src="../images/vnc_option.png" width='50%'>
