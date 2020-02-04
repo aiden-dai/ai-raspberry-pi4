@@ -22,3 +22,5 @@ I have just bought a Raspberry 4 (4G Ram).
 
 - [Image Classification](docs/CLASSIFY.md)
 
+- [OpenCV and Face Detection](docs/OPENCV.md)
+
