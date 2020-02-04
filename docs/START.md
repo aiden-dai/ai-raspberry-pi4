@@ -65,27 +65,6 @@ ssh pi@raspberrypi.local
 <img src="../images/ssh.PNG" width='50%'>
 
 
-## Enable VNC
 
-To enable VNC, run
-
-```
-sudo raspi-config
-```
-Select Interfacing Options > VNC > Yes
-
-Wait until you see 'The VNC Server is enabled'
-
-<img src="../images/vnc.PNG" width='50%'>
-
-Then change the resolution: Select Advanced Options > A5 Resolution
-
-Reboot
-
-Run `ifconfig` via ssh to check the ip address of Raspberry Pi, then connect to Raspberry Pi via VNC Viewer.
-
-<img src="../images/vnc2.PNG" width='50%'>
-
-Now you are good to go!
 
 
