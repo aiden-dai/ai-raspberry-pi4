@@ -8,16 +8,29 @@ This is the official example from Tensorflow Lite
 
 https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/raspberry_pi/README.md
 
-## Run
+## Get the TFLite model
 
-The pre-trained model and labels have been included. To run a test:
+Download the model and place it in the data subfolder
 
 ```bash
 cd python
+
+curl -O https://storage.googleapis.com/download.tensorflow.org/models/tflite/mobilenet_v1_1.0_224_quant_and_labels.zip
+
+unzip mobilenet_v1_1.0_224_quant_and_labels.zip -d data
+
+rm mobilenet_v1_1.0_224_quant_and_labels.zip
+```
+
+## Run image classification
+
+To run a test (You must have CSI camera installed)
+
+```bash
 python3 image_classification.py
 ```
 
-Example
+Put a photo to the camera.
 
 <img src="../images/cat.png" width='50%'>
 

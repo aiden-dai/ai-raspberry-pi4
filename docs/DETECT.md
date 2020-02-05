@@ -8,16 +8,30 @@ This is the official example from Tensorflow Lite
 
 https://github.com/tensorflow/examples/blob/master/lite/examples/object_detection/raspberry_pi/README.md
 
-## Run
 
-The pre-trained model and labels have been included. To run a test:
+## Get the TFLite model
+
+Download the model and place it in the data subfolder
 
 ```bash
 cd python
+
+curl -O http://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+
+unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip -d data
+
+rm coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+```
+
+## Run object detection
+
+To run a test (You must have CSI camera installed)
+
+```bash
 python3 object_detection.py
 ```
 
-Example
+Put a photo to the camera.
 
 <img src="../images/obj.png" width='50%'>
 
