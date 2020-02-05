@@ -1,9 +1,8 @@
-# Use Camera
+# Use CSI Camera
 
-Test and use Camera
+This page is only for the use of CSI camera.
 
 ## Enable Camera
-
 
 Run
 ```
@@ -33,8 +32,6 @@ raspivid -o test.h264 -t 10000 -w 1280 -h 720
 
 
 ## Use picamera in Python
-
-
 
 > Reference: https://picamera.readthedocs.io/en/release-1.13/index.html
 

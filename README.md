@@ -1,9 +1,9 @@
-# ai-raspberry4
-This repo contains some notes to play with Raspberry 4.
+## About
+This repo contains some notes on how to play with Raspberry PI 4.
 
-I have just bought a Raspberry 4 (4G Ram).
+This is my Raspberry PI 4B (4G Ram) with a CSI camera.
 
-..image..
+<img src="images/mypi.jpg" width='50%'>
 
 
 ## Topics
@@ -14,7 +14,9 @@ I have just bought a Raspberry 4 (4G Ram).
 
 - [Useful Tools](docs/TOOLS.md)
 
-- [Use Camera](docs/CAMERA.md)
+- [Use CSI Camera](docs/CAMERA.md)
+
+- [Use USB Camera and Microphone](docs/USB.md)
 
 - [Install Tensorflow Lite](docs/TFLITE.md)
 
