@@ -2,7 +2,7 @@
 
 Run `lsusb` to see the device, here I got the Microdia Camera, which is my USB camera (with microphone)
 
-<img src="../images/lsusb.PNG" width='50%'>
+<img src="../images/lsusb.png" width='50%'>
 
 ## USB camera
 

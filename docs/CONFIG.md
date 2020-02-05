@@ -38,7 +38,7 @@ Select Interfacing Options > VNC > Yes
 
 Wait until you see 'The VNC Server is enabled'
 
-<img src="../images/vnc.PNG" width='50%'>
+<img src="../images/vnc.png" width='50%'>
 
 Then change the resolution: Select Advanced Options > A5 Resolution
 
@@ -46,7 +46,7 @@ Reboot
 
 Run `ifconfig` via ssh or `ping -4 raspberrypi.local` to check the ip address of Raspberry Pi, then connect to Raspberry Pi via VNC Viewer.
 
-<img src="../images/vnc2.PNG" width='50%'>
+<img src="../images/vnc2.png" width='50%'>
 
 
 ## Enable Remote Desktop
